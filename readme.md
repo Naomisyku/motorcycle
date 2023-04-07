@@ -1,0 +1,1 @@
+Ky eshte projekti i dyte i intershipit
