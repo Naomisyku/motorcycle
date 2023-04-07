@@ -1,0 +1,613 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fff;
+}
+
+/*stilizimet per seksionin e pare */
+
+.first-page{
+    background-image: url(images/Rectangle\ 4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.triangle-right {
+    position:absolute;
+    top:0;
+    right:0;
+    height: 90%;
+    width: 50%;
+  }
+
+.logo-title h2{
+    font-family: Bebas Neue;
+    font-size: 23px;
+    font-weight: 100;
+    color: #fff;
+}
+
+.logo-title h3{
+    font-family: Montserrat;
+    font-size: 13px;
+    color: #fff;
+}
+
+.ride{
+    color: red;
+}
+
+.main-title{
+    font-family: Delicious Handrawn;
+    color: #fff;
+    text-shadow: black;
+    display: flex;
+    justify-content: center;
+}
+
+.orange-bike{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.imgone{
+    z-index: 10;
+}
+
+.the-title{
+    z-index: 10;
+}
+
+.nav-link{
+    color: #fff;
+}
+
+.navbar {
+    z-index: 10;
+}
+
+
+/*stilizime per seksionin e dyte */
+
+.col-title{
+    font-family: Bebas Neue;
+    font-size: 30px;
+    padding-top: 36px;
+}
+
+.lorem-text{
+    font-family: Lato;
+    font-size: 15px;
+}
+
+.btn-reservation{
+    background-color: rgb(186, 29, 29);
+    border: none;
+    color: #fff;
+    text-align: center;
+    padding: 9px 30px;
+    font-family: Bebas Neue;
+    border-radius: 60px;
+}
+
+.little-triangle{
+    position: absolute;
+    top:36%;
+    left:1%;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.book-now{
+    display: flex;
+    justify-content: center;
+    height:100vh;
+}
+
+.per-person{
+    color:white;
+    position: absolute;
+    display:flex;
+    flex-direction: column;
+    top:55%;
+}
+.price{
+  font-size:150%;
+}
+
+/*stilizimet per seksionin e trete */
+
+.ten-reasons{
+    /* margin-top: 6%; */
+    background-color: rgb(218, 214, 214);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+.gabime-cuckore{
+    display:flex;
+    flex-direction:column;
+}
+
+.gabime-cuckore p{
+  text-align:left;
+  max-width: 340px;
+}
+
+.center-bike{
+    position: absolute;
+    height: 520px;
+    margin-top: -2%;
+    left: 42%;
+    z-index: 10;
+}
+
+.three-rider{
+    margin-top:25px;
+    background-color: white;
+    margin-bottom:-25px;
+    padding:35px;
+}
+
+.my-reasons{
+    background-color:  rgb(186, 29, 29);
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.alex{
+    /* background-color: violet; */
+    margin-left:105px;
+}
+
+
+
+.steve-divi{
+    margin-left:105px;
+}
+
+.bill{
+    
+    /* background-color: rgb(125, 106, 125); */
+    margin-left:105px;
+}
+
+.my-reasons{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+
+.my-reasons h1{
+    font-family: Bebas Neue;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 100;
+   
+}
+
+.my-reasons h2{
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+}
+
+.my-reasons p{
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.name{
+    font-family: Bebas Neue;
+}
+
+.main-rider{
+    font-family: Bebas Neue;
+    color: #3535357e;
+    font-size: 20px;
+}
+
+.rider-info{
+    display: flex;
+    align-items: center;
+    
+}
+
+.rider-info h3{
+    padding-left:5px
+}
+
+/*stilizimet per seksionin e katert */
+
+.testimonial{
+    background-color: rgb(218, 214, 214);
+    height:100vh;
+}
+
+.about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    
+}
+
+.about-us h2{
+    font-family: Bebas Neue;
+    font-size: 63px;
+}
+
+.red-text{
+    color:  rgb(186, 29, 29);
+}
+
+.about-us h3{
+    font-family: Lato;
+    font-size: 18px;
+}
+
+.information{
+    padding-top: 25px;
+    background-color: white;
+    
+}
+.kartolina{
+    display:flex;
+    justify-content: center;
+    align-items:center; 
+    
+}
+
+.information h2,h3, p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information h2{
+    font-family: Bebas Neue;
+    font-size: 30px;
+}
+
+.information h3{
+    font-family: Bebas Neue;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.information p{
+    text-align:center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: italic;
+    padding: 15px;
+    max-width:450px;
+    margin:0 auto;
+
+}
+
+.john{
+    padding-right: 5px;
+}
+
+.john-traveller{
+display:flex;
+justify-content: center;
+align-items:center;
+
+}
+/*stilizimet per seksionin e peste */
+
+.guided-tours{
+    height: 100vh;
+    background-image: url(images/Layer\ 9.png);
+    background-color: rgba(0, 0, 0, 0.847);
+    position:relative;
+}
+.kuqaloshi{
+    height:80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.page-red{
+    background-color: red;
+    opacity: 0.6;
+}
+
+.text-tours{
+    padding:15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 20vh;
+}
+
+.text-tours h2{
+    font-family: Bebas Neue;
+    color: #fff;
+    font-size: 3rem;
+}
+
+.text-tours p{
+    text-align:center;
+    max-width:800px;
+    margin:0 auto;
+    color: #fff;
+}
+
+.since{
+    color: red;
+}
+
+.km-red{
+    display: flex;
+    
+}
+
+.km-red h3{
+    color: #fff;
+    padding:5px;
+}
+
+.kuqaloshi p{
+    text-align:center;
+    padding-top: 25px;
+    max-width:450px;
+    margin: 0 auto;
+}
+
+.km-white{
+    display: flex;
+    justify-content: space-around;
+}
+
+.km-white h2{
+    color: #fff;
+}
+
+.km-white h3{
+    color: #fff;
+}
+
+.page-red p{
+    color: #fff;
+}
+
+.page-white{
+    height:80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-white p{
+    color: #fff;
+    padding-top: 25px;
+    max-width:450px;
+    margin: 0 auto;
+    text-align:center;
+}
+
+.front-bike{
+    position: absolute;
+    height: 700px;
+    left:38%;
+    top:18%;
+}
+
+/*stilizimet per seksionin e gjashte*/
+
+.travel-blog{
+    height:100vh;
+}
+
+.travel{
+    margin-top:55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.travel h2{
+    font-family: Bebas Neue;
+    font-size: 60px;
+    
+}
+
+.travel h3{
+    font-family: Lato;
+    font-size: 18px;
+}
+
+.destination{
+    color: #fff;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 58%;
+}
+
+.destination h4{
+    font-family: Bebas Neue;
+}
+
+.place{
+    font-family: Lato;
+    font-size: 1rem;
+}
+
+.col-title1{
+    /* font-family: Bebas Neue; */
+    font-size: 23px;
+    padding-top: 12px;
+    text-transform: lowercase;
+}
+
+/* stilizimet per seksionin e shtate*/
+
+.page7{
+    height: 100vh;
+    position: relative;
+}
+
+.part1{
+    min-height:50vh;
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.last-text{
+    /* border-color: 1px solid white; */
+    color: #fff;
+    max-width:900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.location{
+    position:absolute;
+    top:35%;
+    left:45%;
+    height:150px;
+}
+
+.linksocial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.linksocial ul{
+    list-style:none;
+    display: flex;
+    
+}
+
+.linksocial ul li{
+    padding:5px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin:15px;
+    height:55px;
+    width:55px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+
+}
+
+.linksocial ul li a{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.linksocial ul li a ion-icon{
+    height:35px;
+    width:35px;
+    color:black;
+}
+
+.in-centro{
+    /* background-color: pink; */
+    min-height:50vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.info-kolona1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: violet; */
+}
+
+.email{
+    padding:5px
+}
+
+.email-img{
+    height:30px;
+    width:40px;
+    margin-right:15px;
+}
+
+.info-kolonat2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(195, 145, 195); */
+}
+
+.phone{
+    padding: 5px;
+}
+
+.phohe-img{
+    height: 30px;
+    width: 40px;
+    margin-right:15px;
+    background-color: rgb(163, 201, 143);
+}
+
+.info-kolonat3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(138, 124, 138); */
+}
+
+
+.address-img{
+    height: 50px;
+    width: 40px;
+    margin-right:15px;
+}
+
+/*stilizimet e footerit*/
+
+footer{
+    background-color:  rgb(186, 29, 29);
+    padding:25px;
+
+}
+
+.footer-text{
+    font-family: Montserrat;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
