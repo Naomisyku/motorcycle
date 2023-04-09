@@ -550,7 +550,6 @@ flex-direction: column;
     display:flex;
     align-items:center;
     justify-content: center;
-
 }
 
 .linksocial ul li a{
@@ -654,7 +653,43 @@ footer{
 
 @media only screen and (max-width: 1200px) {
 
-/*seksionet 1,2,6 per rezulucionin 1200px nuk kane nevoje per ndryshime*/
+/*seksionet 1,6 per rezulucionin 1200px nuk kane nevoje per ndryshime*/
+
+
+/*Stilizimet per seksionin 2*/
+
+.img-moto1{
+    height: 60%;
+    width: 95%;
+}
+
+.img-moto2{
+    height: 60%;
+    width: 95%;
+}
+
+.img-moto3{
+    height: 60%;
+    width: 95%;
+}
+
+.little-triangle{
+    height: 38%;
+    top:26%;
+    left:1%;
+}
+
+.per-person{
+    top:45%;
+}
+
+.col-title{
+    font-size: 1.5rem;
+}
+
+.lorem-text{
+    font-size: 1rem;
+}
 
 /*Stilizimet per seksionin 3*/
 
@@ -753,6 +788,41 @@ footer{
 
 .fifty{
     font-size: 2rem;
+}
+
+/*Stilizimet per seksionin 6*/
+
+.img-moto1{
+    height: 60%;
+    width: 95%;
+}
+
+.img-moto2{
+    height: 60%;
+    width: 95%;
+}
+
+.img-moto3{
+    height: 60%;
+    width: 95%;
+}
+
+.little-triangle{
+    height: 38%;
+    top:26%;
+    left:1%;
+}
+
+.destination{
+    top:45%;
+}
+
+.col-title1{
+    font-size: 1.5rem;
+}
+
+.lorem-text{
+    font-size: 1rem;
 }
 
 /*Stilizimet per seksionin 7*/
@@ -902,15 +972,274 @@ footer{
     color:black;
 }
 
-
 }
 
 @media only screen and (max-width: 768px){
+
+/*Stilizimet per seksionin 1*/
+
+.orange-bike{
+    height: 330px;  
+ }
+
+.the-title{
+    font-size: 2.2rem;
+}
+
+/*Stilizimet per seksionin 2*/
+
+.img-moto1{
+    height: 55%;
+    width: 88%;
+}
+
+.img-moto2{
+    height: 55%;
+    width: 95%;
+}
+
+.img-moto3{
+    height: 55%;
+    width: 95%;
+}
+
+.little-triangle{
+    height: 33%;
+    top:25%;
+    left:1%;
+}
+
+.per-person{
+    top:37%;
+}
+
+.col-title{
+    font-size: 1rem;
+}
+
+.lorem-text{
+    font-size: 0.7rem;
+}
+
+.price{
+    font-size: 1.3rem;
+}
+
+.btn-reservation{
+    padding: 7px 20px;
+    font-size: 1rem;
+    border-radius: 60px;
+}
+
+/*Stilizimet per seksionin 3*/
+
+.center-bike{
+   display: none;
+}
+
+/*
+.my-reasons h2{
+    font-size: 1rem;
+}
+
+.my-reasons p{
+    font-size: 0.3rem;
+}
+
+.alex-divi{
+    margin-left: 8%;
+}
+
+.bill-divi{
+    margin-left: 8%;
+} */
+
+/*Stilizimet per seksionin 4*/
+
+.big-G{
+    height: 370px;
+    margin-top: 57%;
+}
+
+.kartolina{
+    margin-top: -9%;
+}
+
+.about-us{
+    padding-top: 6%;
+}
+
+.about-us h2{
+    font-size: 2.5rem;
+    padding-top: 3%;
+}
+
+.about-us h3{
+    font-size: 1rem;
+}
+
+.information h2{
+    font-size: 1.5rem;
+}
+
+.information h3{
+    font-size: 1rem;
+}
+
+.information p{
+    font-size: 1.1rem;
+}
+
+/*Stilizimet per seksionin 5*/
+
+.front-bike{
+    display: none;
+}
+
+.kuqaloshi{
+    height:80vh;
+}
+
+.text-tours h2{
+    font-size: 2.5rem;
+}
+
+.text-tours p{
+    font-size: 0.8rem;
+}
+
+/*Stilizimet per seksionin 6*/
+
+.travel h2{
+    font-size: 2.5rem;
+}
+
+.travel h3{
+    font-size: 1rem;
+}
+
+.img-moto1{
+    height: 55%;
+    width: 88%;
+}
+
+.img-moto2{
+    height: 55%;
+    width: 95%;
+}
+
+.img-moto3{
+    height: 55%;
+    width: 95%;
+}
+
+.little-triangle{
+    height: 33%;
+    top:25%;
+    left:1%;
+}
+
+.destination{
+    top:40%;
+    font-size: 1rem;
+}
+
+.col-title1{
+    font-size: 1rem;
+}
+
+.lorem-text{
+    font-size: 0.7rem;
+}
+
+.travel-blog{
+    max-height: 70vh;
+}
+
+/*Stilizimet per seksionin e 7*/
+
+.last-text h1{
+    font-size: 2.2rem;
+}
+
+.last-text p{
+    font-size: 0.8rem;
+}
+
+.email h4{
+    font-size: 1.2rem;
+}
+
+.email h5{
+    font-size: 1rem;
+}
+
+.phone h4{
+    font-size: 1.2rem;
+}
+
+.phone h5{
+    font-size: 1rem;
+}
+
+.address h4{
+    font-size: 1.2rem;
+}
+
+.address h5{
+    font-size: 1rem;
+}
+
+.linksocial ul li{
+    padding:5px;
+    border-radius: 50%;
+    margin:15px;
+    height:35px;
+    width:35px;
+}
+
+.linksocial ul li a ion-icon{
+    height:22px;
+    width:22px;
+    color:black;
+}
+
+/*Footer*/
+
+.footer-text h6{
+    font-size: 1rem;
+}
 
 }
 
 @media only screen and (max-width: 600px) {
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
 }
 
